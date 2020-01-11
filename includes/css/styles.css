@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Abel|Open+Sans|Roboto&display=swap');
+body{
+  background-color: #1a1a1d;
+}
+#navbar{
+  background-color: transparent;
+  transition-duration: 1s;
+
+}
+.navbar .solid{
+  background: #C3073F;
+  border-bottom: 2px solid white;
+}
+#jumbotron{
+  width: 100%;
+  background: url("../../images/22.jpg");
+  background-size: cover;
+}
+#jumb-head{
+  font-family: 'Righteous', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 5rem;
+}
+#jumb-sub{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 300;
+  margin-top: 20px;
+}
+#signup-button{
+  background-color: transparent;
+  border: none;
+  background-color: white;
+  border: 2px solid white;
+  font-family: 'Righteous', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+#signup-button:hover{
+  background-color: transparent;
+  color: white;
+  transition-duration: 0.5s;
+}
+#login-button{
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+  font-family: 'Righteous', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#te{
+  color: #333;
+
+}
+#login-button:hover{
+  background-color: white;
+  color: #333;
+  transition-duration: 0.5s;
+}
+#signup-button1{
+  background-color: transparent;
+  border: none;
+  background-color: white;
+  border: 2px solid white;
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 9px;
+  margin-left: 0px;
+}
+#signup-button1:hover{
+  background-color: transparent;
+  color: white;
+  transition-duration: 0.5s;
+}
+#login-button1{
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 9px;
+  margin-left: -15px;
+}
+#login-button1:hover{
+  background-color: white;
+  color: #333;
+  transition-duration: 0.5s;
+}
+#login-button2{
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+
+}
+#login-button2:hover{
+  background-color: white;
+  color: #333;
+  transition-duration: 0.5s;
+}
+#nav-but-active{
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-left: 10px;
+  transition-duration: 1s;
+}
+#nav-but{
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+#top-l{
+  width: 40px;
+  height: 10px;
+  background-color: #c3073f;
+}
+#concept{
+  margin-top: 150px;
+}
+#concept-head{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-top: 15px;
+
+}
+#concept-sub{
+  font-family: 'Abel', sans-serif;
+  color: #ddd;
+
+
+}
+#concept-feat{
+  font-family: 'Abel', sans-serif;
+  color: #ddd;
+  font-size: 2rem;
+
+}
+#concept-para{
+  font-family: 'Abel', sans-serif;
+  color: #ddd;
+
+  margin-top: 30px;
+  font-size: 1.7rem;
+  text-align: justify;
+  font-weight: 200;
+}
+#know-more{
+  background-color: #c3073f;
+  border: none;
+  border: 2px solid #c3073f;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+
+  transition-duration: 0.5s;
+}
+#know-more:hover{
+  background-color: transparent;
+  color: #c3073f;
+  transition-duration: 0.5s;
+}
+#know-more1{
+  background-color: #c3073f;
+  border: none;
+  border: 2px solid #c3073f;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+
+  transition-duration: 0.5s;
+}
+#know-more1:hover{
+  background-color: transparent;
+  color: #c3073f;
+  transition-duration: 0.5s;
+}
+#know-more2{
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+  transition-duration: 0.5s;
+}
+#know-more2:hover{
+  background-color: white;
+  color: #c3073f;
+  transition-duration: 0.5s;
+}
+#cont{
+  background-color: #050505;
+}
+#cont1{
+  background: linear-gradient(-90deg, #C3073f, #950740);
+  animation: gradientBG 15s ease infinite;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+}
+#cont-head{
+  font-family: 'Abel', sans-serif;
+  color: #C3073f;
+  margin-left: 30px;
+
+}
+#cont-head1{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-left: 30px;
+  font-size: 2.9rem;
+
+}
+#cont-head2{
+  font-family: 'Abel', sans-serif;
+  color: #C3073f;
+
+}
+#cont-head11{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+  font-size: 2.9rem;
+
+}
+#cont1-head{
+  font-family: 'Abel', sans-serif;
+  color: white;
+
+  margin-top: 30px;
+
+}
+#cont1-head1{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+
+  font-size: 2.9rem;
+
+}
+#email{
+  background-color: transparent;
+  border: none;
+  border: 2px solid white;
+
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  color: white;
+
+  padding-right: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#email ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:white;
+  opacity: 1; /* Firefox */
+}
+
+#email :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+#email ::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+#features{
+  background: black;
+}
+
+#card-test{
+
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+}
+#glyph{
+  color: white;
+  font-size: 4em;
+}
+#feat-x{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+#feat-y{
+  font-family: 'Abel', sans-serif;
+  color: #eee;
+  padding: 15px;
+  text-align: center;
+}
+#contact{
+  background: url("../../images/44.jpg");
+  background-size: cover;
+  width: 100%;
+}
+#name{
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+#emailx{
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+#text{
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+#contact ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#ccc;
+  opacity: 1; /* Firefox */
+}
+
+#contact :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+#contact ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+
+
+#footer{
+  /*#333*/
+  background-color: black;
+
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+
+}
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+}
+.social-icons p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+.social-icons h1,
+.social-icons h2,
+.social-icons h3,
+.social-icons h4,
+.social-icons h5,
+.social-icons h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0;
+    margin-left: 0px;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-instagram:hover {
+    background-color: #cd486b;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #222;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+#add1{
+   font-family: 'Abel', sans-serif;
+ color: white;
+ font-weight: strong;
+ font-size: 18px;
+ margin-top: 10px;
+
+}
+#add2{
+   font-family: 'Abel', sans-serif;
+ color: #eee;
+ font-weight: strong;
+ font-size: 14px;
+ margin-top: -5px;
+
+}
+#mail{
+  font-family: 'Abel', sans-serif;
+ color: #c3073f;
+
+ font-size: 14px;
+ margin-top: 5px;
+}
+#navigate-head{
+  font-family: 'Abel', sans-serif;
+ color: white;
+
+ font-size: 20px;
+
+}
+#navigate-links{
+  font-family: 'Abel', sans-serif;
+ color: #ddd;
+ margin-left: 10px;
+
+
+}
+
+#head-price{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+}
+#head-sub{
+  color: #c3073f;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+}
+#set{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: -5px;
+
+}
+#set1{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0;
+
+}
+#set2{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-right: -10px;
+}
+
+#head-temp{
+  font-family: 'Abel', sans-serif;
+  color: #aaa;
+}
+#head-temp1{
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+}
+#head-temp11{
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+  font-size: 60px;
+}
+#head-temp2{
+  font-family: 'Abel', sans-serif;
+  color: #c3073f;
+}
+#head-temp22{
+  font-family: 'Abel', sans-serif;
+  color: #c3073f;
+}
+
+#feat{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .navbar-responsive-collapse {
+    background-color: black;
+
+
+  }
+  #card-test{
+    margin-top: 50px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
